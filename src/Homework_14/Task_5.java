@@ -12,8 +12,9 @@ public class Task_5 {
                 " the character 'a' occurs there. And we can use the split method and the length method.";
         String smallLett = string.toLowerCase();
         String[] smallLett_1 = smallLett.split("a");
-        int letter_a = smallLett_1.length;
-        System.out.println("Количество букв 'a': " + letter_a);// Я не понимаю, почему их 9
+        int letter_a = smallLett_1.length - 1;
+        System.out.println("Количество букв 'a': " + letter_a);// Я не понимаю, почему их 9,
+        // нервы и бухло закончилось....
         }
 
     }
