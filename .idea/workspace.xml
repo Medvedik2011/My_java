@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c11727ae-6681-46ce-bb67-05451ad06bad" name="Changes" comment="add new folder">
-      <change afterPath="$PROJECT_DIR$/src/Classwork/lesson_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Classwork/sangbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework_14/Sandbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework_15/Date.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework_15/Task_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework_15/Task_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework_15/Task_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework_15/Task_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework_15/Task_5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_14/Task_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework_14/Task_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_14/Task_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework_14/Task_5.java" afterDir="false" />
-    </list>
+    <list default="true" id="c11727ae-6681-46ce-bb67-05451ad06bad" name="Changes" comment="add HW_15" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,12 +31,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Homework_15" />
@@ -161,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678135013499</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add HW_15">
+      <created>1678381789117</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678381789117</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -169,6 +164,7 @@
     <MESSAGE value="add 1 task" />
     <MESSAGE value="add HW-14 1-5 tasks" />
     <MESSAGE value="add new folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new folder" />
+    <MESSAGE value="add HW_15" />
+    <option name="LAST_COMMIT_MESSAGE" value="add HW_15" />
   </component>
 </project>
