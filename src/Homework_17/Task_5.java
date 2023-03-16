@@ -31,6 +31,7 @@ public class Task_5 {
             System.out.println();
         }
         /*для пустого треугольника
+
         for (int i = 0; i < number; i++) {
         for (int x = 0; x < number - i; x++){
             понимаю, что тут нужен if но не могу придумать условие.
