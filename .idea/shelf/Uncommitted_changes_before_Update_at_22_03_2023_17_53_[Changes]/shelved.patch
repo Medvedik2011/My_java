@@ -1,0 +1,167 @@
+Index: src/Classwork/lesson_3.java
+===================================================================
+diff --git a/src/Classwork/lesson_3.java b/src/Classwork/lesson_3.java
+deleted file mode 100644
+--- a/src/Classwork/lesson_3.java	(revision 71b71e3b1eeb825a0aca28599bfd70ba445d7a24)
++++ /dev/null	(revision 71b71e3b1eeb825a0aca28599bfd70ba445d7a24)
+@@ -1,22 +0,0 @@
+-package Classwork;
+-
+-import java.util.Scanner;
+-
+-public class lesson_3 {
+-    public static void main(String[] args) {
+-        //String string1 = "Мое имя {name}. Мой возраст {age}. Но чувствую я себя на все {newAge}.";
+-        //String string2 = string1.replace("{name}", "%s").replace("{age}", "%d")
+-        //.replace("{newAge}", "%d");
+-        //System.out.printf(string2, "Сергей", 31, 100);
+-      /*Пользователь вводит с клавиатуры произвольную строку.
+-   Необходимо чтобы вместо второго слова введенной строки
+-   выводилось слово "конечно". И это слово должно писаться отдельной строкой.
+-   Ну и после добавлялась фраза типа:
+-   Напечатано сегодня в {день недели вывода этого сообщения}, в {время вывода сообщения формата 22:22}
+-   . (В верхнем регистре.)
+-    Scanner input = new Scanner()*/
+-    }
+-    }
+-
+-
+-
+Index: src/Classwork/main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Classwork/main.java b/src/Classwork/main.java
+new file mode 100644
+--- /dev/null	(date 1679486672174)
++++ b/src/Classwork/main.java	(date 1679486672174)
+@@ -0,0 +1,18 @@
++package Classwork;
++
++public class main {
++    public static void main(String[] args) {
++        Computer computer=new Computer();
++        computer.setName("Apple");
++        System.out.println(computer.getName());
++        computer.name="Hren ";
++        System.out.println(computer.getName());
++
++
++
++
++        int[] a={2,3,5};
++        System.out.println(a.length);
++
++    }
++}
+Index: src/Classwork/Computer.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Classwork/Computer.java b/src/Classwork/Computer.java
+new file mode 100644
+--- /dev/null	(date 1679493724578)
++++ b/src/Classwork/Computer.java	(date 1679493724578)
+@@ -0,0 +1,27 @@
++package Classwork;
++
++public class Computer {
++    public String name;
++
++    public int getRam() {
++        return ram;
++    }
++
++    public int price;
++    public int ram;
++    public int video;
++    public boolean mouseInclude;
++
++    public String getName(){
++        return name;
++    }
++    public void  setName(String string){
++        this.name=string;
++    }
++    public int getPrice(){
++        return price;
++    }
++    public void  setName (int price){
++        this.price=price;
++    }
++}
+Index: src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class Main {\r\n    public static void main(String[] args) {\r\n        System.out.println(\"Hello world!\");\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Main.java b/src/Main.java
+--- a/src/Main.java	(revision 71b71e3b1eeb825a0aca28599bfd70ba445d7a24)
++++ b/src/Main.java	(date 1679495034089)
+@@ -1,5 +1,32 @@
++import java.util.ArrayList;
++import java.util.List;
++
++
+ public class Main {
+     public static void main(String[] args) {
+-        System.out.println("Hello world!");
++        int[] numbers = {0,1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
++        sortNum(numbers);
++    }
++    public static void sortNum(int[] numbers) {
++        List<Integer> chNum = new ArrayList<>();
++        List<Integer> nechNum = new ArrayList<>();
++
++        for (int number : numbers) {
++            if ((number % 2) == 0) {
++                chNum.add(number);
++            } else {
++                nechNum.add(number);
++            }
++        }
++
++        System.out.println("Четные числа");
++        for (int number : chNum) {
++            System.out.println(number);
++        }
++
++        System.out.println("Нечетные числа");
++        for (int number : nechNum) {
++            System.out.println(number);
++        }
+     }
+ }
+\ No newline at end of file
+Index: src/Classwork/Calculator.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Classwork/Calculator.java b/src/Classwork/Calculator.java
+new file mode 100644
+--- /dev/null	(date 1679496842798)
++++ b/src/Classwork/Calculator.java	(date 1679496842798)
+@@ -0,0 +1,16 @@
++/*package Classwork;
++
++public static void main(String[]args){
++
++
++public class Calculator {
++    public static void calculat(String text){
++        System.out.println("I can`t");
++    }
++
++    public static void calculat(String text){
++        System.out.println("I can`t");
++        System.out.println("I can`t. Fuck java" + text);
++    }
++
++}*/
+diff --git a/src/Classwork/sangbox.java b/src/Classwork/sangbox.java
+deleted file mode 100644

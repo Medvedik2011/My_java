@@ -1,0 +1,52 @@
+Index: src/Homework_18/Task_1.java
+===================================================================
+diff --git a/src/Homework_18/Task_1.java b/src/Homework_18_v2/Task_1.java
+rename from src/Homework_18/Task_1.java
+rename to src/Homework_18_v2/Task_1.java
+--- a/src/Homework_18/Task_1.java	
++++ b/src/Homework_18_v2/Task_1.java	
+@@ -1,4 +1,4 @@
+-package Homework_18;
++package Homework_18_v2;
+ 
+     /* Написать метод, принимающий в качестве параметров два числа,
+        который будет выводить на консоль сумму этих двух чисел.
+Index: src/Homework_18/Task_5.java
+===================================================================
+diff --git a/src/Homework_18/Task_5.java b/src/Homework_18_v2/Task_5.java
+rename from src/Homework_18/Task_5.java
+rename to src/Homework_18_v2/Task_5.java
+--- a/src/Homework_18/Task_5.java	
++++ b/src/Homework_18_v2/Task_5.java	
+@@ -1,4 +1,4 @@
+-package Homework_18;
++package Homework_18_v2;
+ /*Создать класс Конспект. Класс должен содержать следующие поля:
+     название предмета;
+     ФИО студента;
+Index: src/Homework_18/Task_2.java
+===================================================================
+diff --git a/src/Homework_18/Task_2.java b/src/Homework_18_v2/Task_2.java
+rename from src/Homework_18/Task_2.java
+rename to src/Homework_18_v2/Task_2.java
+--- a/src/Homework_18/Task_2.java	
++++ b/src/Homework_18_v2/Task_2.java	
+@@ -1,4 +1,4 @@
+-package Homework_18;/*package Homework_18;
++package Homework_18_v2;/*package Homework_18;
+ 
+ /*Написать метод, принимающий в качестве параметра массив целых чисел. И выводит на экран все четные числа списком,
+    а также нечетные числа списком.*/
+Index: src/Homework_18/Task_3.java
+===================================================================
+diff --git a/src/Homework_18/Task_3.java b/src/Homework_18_v2/Task_3.java
+rename from src/Homework_18/Task_3.java
+rename to src/Homework_18_v2/Task_3.java
+--- a/src/Homework_18/Task_3.java	
++++ b/src/Homework_18_v2/Task_3.java	
+@@ -1,4 +1,4 @@
+-package Homework_18;
++package Homework_18_v2;
+ /*Используя рекурсию напишите метод, который будет выводить введенное число в обратном порядке, так чтобы каждая
+   цифра писалась два раза, после ставился пробел, и вторая цифра тоже писалась два раза и после ставился пробел...
+   Пример: вы вводите 563
